@@ -409,3 +409,56 @@ tecnológico, no colores llamativos ni disruptivos"):
   paleta.
 - Sin cambios en el verde de WhatsApp, el rojo de YouTube ni la banda
   de cookies (colores de terceros / estándar de familia).
+
+────────────────────────────────────────────────────────────
+ADAPTACIÓN A ARGANZUELATECH SERVICIO MANTENIMIENTO INFORMÁTICO
+(repositorio clonado a partir de RetiroTech)
+────────────────────────────────────────────────────────────
+
+MARCA Y TEXTOS:
+- "RetiroTech" → "ArganzuelaTech" en cabecera, pie de página, JSON-LD
+  (name) y mensaje prellenado de WhatsApp ("¡Hola ArganzuelaTech").
+- Title: "ArganzuelaTech Servicio Mantenimiento Informático" (texto
+  exacto indicado por el cliente; a diferencia de otros repos de la
+  familia, aquí no lleva "|" ni el distrito en el propio título, se ha
+  respetado tal cual). Meta description, og:title y og:description
+  reescritos mencionando Arganzuela, Madrid.
+- H1 propio de 9 palabras exactas, distinto de los de los repos
+  hermanos: "Protegemos y mantenemos la tecnología que usa tu
+  empresa."
+- Fila "Zona": "Retiro, Madrid" → "Arganzuela, Madrid".
+- FAQ "¿Trabajáis solo en Retiro?" → "¿Trabajáis solo en Arganzuela?",
+  con la respuesta actualizada igual.
+- Tarjeta de información de contacto: el h2 actualizado al título
+  exacto de esta web: "ArganzuelaTech Servicio Mantenimiento
+  Informático" (se corrigió aparte, ya que el rebranding automático
+  solo cambiaba el nombre de marca y dejaba "| Mantenimiento
+  Informático en Retiro" sin tocar).
+- JSON-LD: description y areaServed actualizados a Arganzuela, Madrid.
+
+DOMINIO Y ENLACES:
+- canonical, og:url y JSON-LD "url" → https://mantenimientoinformaticopymearganzuela.es/
+  (dominio indicado directamente por el cliente; distinto del nombre
+  del repositorio en GitHub, informaticopymearganzuela.es, sin el
+  prefijo "mantenimiento").
+- sitemap.xml y robots.txt actualizados al nuevo dominio.
+- Enlace de Google Maps actualizado en las 4 ubicaciones del sitio a
+  https://maps.app.goo.gl/nx8YwK9bkcRbz8J57, proporcionado por el
+  cliente.
+
+TELÉFONO Y WHATSAPP: sin cambios, mismo número compartido por toda la
+familia.
+
+COLOR (a petición del cliente: "no colores apagados o poco
+saturados" — regla permanente de la subfamilia, siempre se cambia):
+- Nueva paleta ámbar-naranja vivo, primera de la subfamilia en un tono
+  cálido (todas las anteriores eran de la gama fría azul/violeta/
+  verde): --blue:#5b5fa8→#b85c00, --indigo:#3d4f73→#7a3d00,
+  --cyan:#8f93e0→#ffb347. Combinado con el fondo oscuro azul marino
+  (--bg/--bg2, sin tocar) da un aspecto de "panel de control"
+  tecnológico, bien saturado y con buen contraste. Genuinamente
+  distinta de las ocho paletas anteriores de la subfamilia.
+- Todos los tonos derivados (fondos de iconos claros, textos en color
+  sobre fondo oscuro, badges, bordes de hover, sombras de botones)
+  recalculados a la misma paleta, mismo contraste que antes.
+- Isotipo (assets/isotipo.svg) recoloreado a juego.
